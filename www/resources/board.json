@@ -1,0 +1,40 @@
+{
+    "layout":
+    [
+        [1, 0, 0, 2, 0, 0, 3],
+        [4, 5, 0, 6, 7, 0, 8, 9],
+        [10, 11, 12, 13, 14, 15, 16, 17, 18],
+        [19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+    ],
+    "cards":
+    [
+        {"id": 1, "covered" : [4, 5], "covering":[]},
+        {"id": 2, "covered" : [6, 7], "covering":[]},
+        {"id": 3, "covered" : [8, 9], "covering":[]},
+        {"id": 4, "covered" : [10, 11], "covering":[1]},
+        {"id": 5, "covered" : [11, 12], "covering":[1]},
+        {"id": 6, "covered" : [13, 14], "covering":[2]},
+        {"id": 7, "covered" : [14, 15], "covering":[2]},
+        {"id": 8, "covered" : [16, 17], "covering":[3]},
+        {"id": 9, "covered" : [17, 18], "covering":[3]},
+        {"id": 10, "covered" : [19, 20], "covering":[4]},
+        {"id": 11, "covered" : [20, 21], "covering":[4, 5]},
+        {"id": 12, "covered" : [21, 22], "covering":[5]},
+        {"id": 13, "covered" : [22, 23], "covering":[6]},
+        {"id": 14, "covered" : [23, 24], "covering":[6, 7]},
+        {"id": 15, "covered" : [24, 25], "covering":[7]},
+        {"id": 16, "covered" : [25, 26], "covering":[8]},
+        {"id": 17, "covered" : [26, 27], "covering":[8, 9]},
+        {"id": 18, "covered" : [27, 28], "covering":[9]},
+        {"id": 19, "covered" : [], "covering":[10]},
+        {"id": 20, "covered" : [], "covering":[10, 11]},
+        {"id": 21, "covered" : [], "covering":[11, 12]},
+        {"id": 22, "covered" : [], "covering":[12, 13]},
+        {"id": 23, "covered" : [], "covering":[13, 14]},
+        {"id": 24, "covered" : [], "covering":[14, 15]},
+        {"id": 25, "covered" : [], "covering":[15, 16]},
+        {"id": 26, "covered" : [], "covering":[16, 17]},
+        {"id": 27, "covered" : [], "covering":[17, 18]},
+        {"id": 28, "covered" : [], "covering":[18]}
+    ]        
+}

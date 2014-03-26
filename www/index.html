@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"> 
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="mobilewebmaterials/apple-touch-icon-114x114-precomposed.png">
+
+    <!-- 320x460 for iPhone 3GS -->
+    <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and not (-webkit-min-device-pixel-ratio: 2)" href="mobilewebmaterials/startup-iphone.png">
+
+    <!-- iPad Landscape 1024x748 -->
+    <link rel="apple-touch-startup-image" media="(min-device-width: 768px) and (orientation: landscape)" href="mobilewebmaterials/startup-iPad-landscape.png"> 
+
+    <title>Magic Pond Solitaire</title>
+    <script type="text/javascript" src="magic_pond_solitaire_lib.min.js"></script>
+    <script type="text/javascript" src="lib/Card.js"></script>
+    <script type="text/javascript" src="lib/Deck.js"></script>
+    <script type="text/javascript" src="src/setting_boostermedia.js"></script>
+    <script type="text/javascript" src="src/banner_leadbolt.js"></script>
+    <script type="text/javascript" src="src/main.js"></script>
+    <script type="text/javascript">
+        GAME_SIZE_RATIO = 1;
+    </script>
+    
+    
+            <script type="text/javascript">
+          var _gaq = _gaq || [];</script>
+          <script type="text/javascript" src="_pre.js"></script>
+          <script type="text/javascript">
+          	
+          	var objparams = {
+          		_gameName:"magicpondsolitaire",
+          		_categoryName:"categorie puzzle",
+          		_gameId:0
+          		//,_gameCode:''
+          		
+          	};
+          	BM_API.initWithObj(objparams);
+          	
+		BM_API.getAnalytics().includeGA();
+		BM_API.getAnalytics().init();
+		
+		BM_API.getAd().init();
+        BM_API.getAd().setAdsEnabled(false);
+		
+		BM_API.getGeneric().setSplashEnabled(false);
+		//BM_API.getHighscores().init();
+		
+		BM_API.getGeneric().setPortRotation(true);
+		BM_API.getProfile().init();
+          	
+          </script>
+        
+    <style type="text/css">
+        <!--
+            #pixi-stage
+            {
+                position: relative;
+                z-index: 0;
+            }
+
+            #banner_sponsor
+            {
+                position: absolute;
+                z-index: 1;
+                left: 50%;
+                display: none;
+            }
+        -->
+    </style>
+</head>
+<body style="margin: 0; background-color:black;">
+	
+	        <script type="text/javascript" src="_post.js"></script>
+        	<script type="text/javascript">
+        	BM_API.getInterface().init({menuButtonHeight:32});
+        	//BM_API.getInterface().setElementEnabled("highscore",true);
+        	//BM_API.getProfile().setFeatureEnabled(BM_API.getProfile().GF_HIGHSCORE);
+        	BM_API.getAd().addAdvertising(34394, 183341);
+        	
+       		 </script>
+	
+<div id="pixi-stage">
+</div>
+</body>
+</html>
